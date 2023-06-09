@@ -1,0 +1,48 @@
+@import './base.css';
+
+
+a, .green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+
+#app {
+  max-width: 1600px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+
+  font-weight: normal;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body.body-center {
+    display: flex;
+    place-items: center;
+  }
+
+  body.body-normalflow{
+    /* padding: 0 2rem; */
+    display: flex,
+  }
+
+  .body-center #app  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding: 3rem 2rem; */
+}
+
+  .body-normalflow #app  {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    /* padding: 3rem 2rem; */
+  }
+}
