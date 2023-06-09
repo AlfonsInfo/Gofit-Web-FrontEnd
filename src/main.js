@@ -30,7 +30,7 @@ app.use(router)
 app.use(jsPDF)
 app.use(ConfirmDialog)
 // app.use(BootstrapVue)
-app.config.globalProperties.$http = axios.create({baseURL : 'http://127.0.0.1:8000/api'})
+app.config.globalProperties.$http = axios.create({baseURL : 'https://backend-0541-p3l-production.up.railway.app/api'})
 app.provide('$http',app.config.globalProperties.$http) 
 app.mount('#app')
 
