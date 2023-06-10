@@ -19,7 +19,7 @@ export const functionalKasir = [
   'Fitur ini memungkinkan pegawai untuk menambahkan, mengubah, mengupdate, dan menghapus data member.','./assets/gym-membership-app-c9c6336e.jpeg','member'),
   new functionalMenu('Reset Password Member','Fitur ini mendukung pegawai melayani member yang ingin melakukan reset password karena lupa','./assets/reset-password-0e41778b.jpg','member-reset-password'),
   new functionalMenu('Transaksi','Fitur ini mendukung layanan transaksi seperti aktivasi membership, deposit uang, deposit kelas dan cetak struk','./assets/transaction-gym-10474599.jpg','transaksi-member',),
-  new functionalMenu('Presensi Member','Fitur ini digunakan untuk konfirmasi kehadiran member gym dan member kelas','./assets/image/presensi-e46a1aa1.jpg','presensi-member','presensi-member'),
+  new functionalMenu('Presensi Member','Fitur ini digunakan untuk konfirmasi kehadiran member gym dan member kelas','./assets/presensi-e46a1aa1.jpg','presensi-member','presensi-member'),
   // new functionalMenu('Sistem','Fitur ini digunakan untuk mendukung kinerja sistem website dan apps','./assets/image/presensi-e46a1aa1.jpg','presensi-member','presensi-member'),
 ];
 
