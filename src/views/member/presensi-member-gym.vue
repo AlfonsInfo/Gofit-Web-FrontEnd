@@ -121,7 +121,7 @@ import { HomeNavbar, useRouter, ref ,  $toast, defineComponent, BackButton ,Swal
             })
             if(result.isConfirmed){
 
-            const url = `http://localhost:8000/api/presensigym/${id}`
+            const url = `/presensigym/${id}`
             const request = await this.$http.put(url,{status_kehadiran : 1});
             $toast.success('Berhasil Konfirmasi Presensi')
             this.getAllPresence()
@@ -170,7 +170,7 @@ import { HomeNavbar, useRouter, ref ,  $toast, defineComponent, BackButton ,Swal
         },
     
         async getAllPresence(message){
-            const url = "http://localhost:8000/api/presensigym";
+            const url = "/presensigym";
             const request = await this.$http.get(url)
             this.Presensigym = request.data.data
             console.log(this.Presensigym)
