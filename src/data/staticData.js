@@ -16,7 +16,7 @@ export const getImageUrl = (path) => {
 
 export const functionalKasir = [
   new functionalMenu('Olah Member',
-  'Fitur ini memungkinkan pegawai untuk menambahkan, mengubah, mengupdate, dan menghapus data member.','../../assets/image/reset-password','member'),
+  'Fitur ini memungkinkan pegawai untuk menambahkan, mengubah, mengupdate, dan menghapus data member.','../assets/image/reset-password','member'),
   new functionalMenu('Reset Password Member','Fitur ini mendukung pegawai melayani member yang ingin melakukan reset password karena lupa','../../src/assets/image/reset-password.jpg','member-reset-password'),
   new functionalMenu('Transaksi','Fitur ini mendukung layanan transaksi seperti aktivasi membership, deposit uang, deposit kelas dan cetak struk','../../src/assets/image/transaction-gym.jpg','transaksi-member',),
   new functionalMenu('Presensi Member','Fitur ini digunakan untuk konfirmasi kehadiran member gym dan member kelas','../../src/assets/image/presensi.jpg','presensi-member','presensi-member'),
@@ -25,7 +25,7 @@ export const functionalKasir = [
 
 
 export const functionalAdmin = [
-  new functionalMenu('Olah Data Instruktur','Fitur Olah Data Instruktur (Menambahkan, Menampilkan, Mengubah, Menghapus) data instruktur','../../src/assets/image/instruktor.jpg','instruktur')
+  new functionalMenu('Olah Data Instruktur','Fitur Olah Data Instruktur (Menambahkan, Menampilkan, Mengubah, Menghapus) data instruktur','../src/assets/image/instruktor.jpg','instruktur')
 ]
 export const functionalMO = [
   new functionalMenu('Olah Jadwal Umum','Fitur pengolah data Jadwal Secara Umum, Manajer Operasional bisa menambahkankan jadwal , mengupdate jadwal, menampilkan dan menghapus jadwal','../../src/assets/image/schedule.jpg','jadwal-umum'),
