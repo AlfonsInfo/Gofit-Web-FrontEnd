@@ -234,7 +234,7 @@
                         </br>
                         <strong><u>Laporan Pendapatan Tahunan</u></strong>
                         </br>
-                        <p><u>Bulan : ${this.namaBulanSekarang} Tahun: 2023</u></p>
+                        <p><u>Bulan : ${namaBulanSekarang} Tahun: 2023</u></p>
                         <p>Tanggal Cetak : ${this.currentDate} </p>
                         <table>${tableContent}</table>
                         <div id="container">${$('#container').html()}</div>
