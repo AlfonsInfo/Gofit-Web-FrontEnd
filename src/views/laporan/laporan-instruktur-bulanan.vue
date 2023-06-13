@@ -44,7 +44,7 @@ import { HomeNavbar, useRouter,  $toast, defineComponent, BackButton ,ref } from
                             </br>
                             <p>Jl CentralPark No. 10 Yogyakarta</p>
                             </br>
-                            <strong><u>Laporan Aktivitas Kelas Bulanan</u></strong>
+                            <strong><u>Laporan Kinerja Instruktur</u></strong>
                             </br>
                             <p><u>Bulan : ${selectedMonth} Tahun: 2023</u></p>
                             <p>Tanggal Cetak : ${currentDate} </p>
@@ -131,7 +131,7 @@ import { HomeNavbar, useRouter,  $toast, defineComponent, BackButton ,ref } from
             <select id="bulan" v-model="selectedMonth">
                 <option v-for="(bulan, index) in months" :key="index" :value="index+1">{{ bulan }}</option>
             </select>
-        <button class="btn btn-primary m-2" @click="getDataKelasBulanan('Ambil Kembali Data',selectedMonth)">Ambil Data</button>
+        <button class="btn btn-primary m-2" @click="getDataKinerjaInstruktur('Ambil Kembali Data',selectedMonth)">Ambil Data</button>
     </div>
       <div class="text-dark table-custom mt-5 ms-5 me-5 p-2 d-inline-block">
         <!-- <bu class="btn btn-primary">Presensi Gym</bu   tton> -->

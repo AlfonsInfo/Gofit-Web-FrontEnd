@@ -49,7 +49,7 @@ import { HomeNavbar, useRouter,  $toast, defineComponent, BackButton ,ref } from
                                 </br>
                                 <p>Jl CentralPark No. 10 Yogyakarta</p>
                                 </br>
-                                <strong><u>Laporan Aktivitas Kelas Bulanan</u></strong>
+                                <strong><u>Laporan Aktivitas Pendapatan Tahunan </u></strong>
                                 </br>
                                 <p><u>Tahun: 2023</u></p>
                                 <p>Tanggal Cetak : ${currentDate} </p>
@@ -221,7 +221,7 @@ chartData(table) {
                     </br>
                     <p>Jl CentralPark No. 10 Yogyakarta</p>
                     </br>
-                    <strong><u>Laporan Aktivitas Kelas Bulanan</u></strong>
+                    <strong><u>Laporan Pendapatan Tahunan</u></strong>
                     </br>
                     <p><u>Bulan : ${this.getMonthName(this.selectedMonth)} Tahun: 2023</u></p>
                     <p>Tanggal Cetak : ${this.currentDate} </p>

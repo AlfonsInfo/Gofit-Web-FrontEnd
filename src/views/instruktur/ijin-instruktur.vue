@@ -142,7 +142,7 @@ import { customSwal } from '../../plugins/function';
         },
     
         async getBeforeConfirm(message){
-            const url = "http://localhost:8000/api/ijininstrukturforconfirm";
+            const url = "/ijininstrukturforconfirm";
             const request = await this.$http.get(url)
             this.ijininstrukturforconfirm = request.data.data
             if(this.countInit == 0)
@@ -154,7 +154,7 @@ import { customSwal } from '../../plugins/function';
             },
 
         async getAllPermit(){
-            const url = "http://localhost:8000/api/ijininstruktur";
+            const url = "/ijininstruktur";
             const request = await this.$http.get(url)
             this.ijinInstruktur = request.data.data
             if(this.countInit2 == 0)
