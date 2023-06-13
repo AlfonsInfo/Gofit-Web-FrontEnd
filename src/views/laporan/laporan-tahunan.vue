@@ -224,7 +224,7 @@
 
                     // Mendapatkan konten tabel yang akan dicetak
                 const tableContent = $('#example').html();
-
+                // ${namaBulanSekarang}
                 // Menggabungkan konten tabel dengan konten grafik Highcharts
                 // ${this.getMonthName(this.selectedMonth)}
                 const contentToPrint = `
@@ -234,7 +234,7 @@
                         </br>
                         <strong><u>Laporan Pendapatan Tahunan</u></strong>
                         </br>
-                        <p><u>Bulan : ${namaBulanSekarang} Tahun: 2023</u></p>
+                        <p><u>Bulan : Tahun: 2023</u></p>
                         <p>Tanggal Cetak : ${this.currentDate} </p>
                         <table>${tableContent}</table>
                         <div id="container">${$('#container').html()}</div>
