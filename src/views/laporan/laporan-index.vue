@@ -28,7 +28,7 @@
 </script>
 <template >
   <header>
-    <home-navbar :message = "'Transaksi Member'"></home-navbar>
+    <home-navbar :message = "'Laporan'"></home-navbar>
   </header>
   <main class="">
       <div class="pegawai-mo p-5 " >
