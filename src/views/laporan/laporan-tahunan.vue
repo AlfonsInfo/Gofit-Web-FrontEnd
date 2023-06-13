@@ -212,10 +212,20 @@
                 },
 
                 printData() {
-                // Mendapatkan konten tabel yang akan dicetak
+                    var namaBulan = [
+                    "Januari", "Februari", "Maret", "April", "Mei", "Juni",
+                    "Juli", "Agustus", "September", "Oktober", "November", "Desember"
+                    ];
+
+                    var tanggalSekarang = new Date();
+                    var bulanSekarang = tanggalSekarang.getMonth();
+                    var namaBulanSekarang = namaBulan[bulanSekarang];
+
+                    // Mendapatkan konten tabel yang akan dicetak
                 const tableContent = $('#example').html();
 
                 // Menggabungkan konten tabel dengan konten grafik Highcharts
+                // ${this.getMonthName(this.selectedMonth)}
                 const contentToPrint = `
                     <strong>Gofit</strong>
                         </br>
@@ -223,7 +233,7 @@
                         </br>
                         <strong><u>Laporan Pendapatan Tahunan</u></strong>
                         </br>
-                        <p><u>Bulan : ${this.getMonthName(this.selectedMonth)} Tahun: 2023</u></p>
+                        <p><u>Bulan : ${this.namaBulanSekarang} Tahun: 2023</u></p>
                         <p>Tanggal Cetak : ${this.currentDate} </p>
                         <table>${tableContent}</table>
                         <div id="container">${$('#container').html()}</div>
